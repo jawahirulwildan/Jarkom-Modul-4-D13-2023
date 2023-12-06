@@ -776,3 +776,5 @@ ip route 0.0.0.0 0.0.0.0 10.28.0.65
 ```
 ip route 0.0.0.0 0.0.0.0 10.28.0.1
 ```
+### Hasil Testing
+![cidr-hasil](images/cidr-hasil.png)
