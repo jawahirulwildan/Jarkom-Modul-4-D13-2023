@@ -17,7 +17,7 @@
       <td> 5025211150 </td>
   </tbody>
 </table>
-Soal Dapat diakses pada [Soal Praktikum Modul 4](https://docs.google.com/document/d/1PFDIgt5fC4PMmUaDKxw9ZEgwzpzgFv0xvo3K7PRkj10/edit)
+Soal Dapat diakses pada [Soal Praktikum Modul 4](https://docs.google.com/document/d/1PFDIgt5fC4PMmUaDKxw9ZEgwzpzgFv0xvo3K7PRkj10/edit?usp=sharing)
 
 ## Topologi
 [!topologi](.images/topologi_modul4.png)
