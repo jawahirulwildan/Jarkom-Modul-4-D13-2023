@@ -17,13 +17,13 @@
       <td> 5025211150 </td>
   </tbody>
 </table>
-Soal Dapat diakses pada [Soal Praktikum Modul 4](https://docs.google.com/document/d/1PFDIgt5fC4PMmUaDKxw9ZEgwzpzgFv0xvo3K7PRkj10/edit?usp=sharing)
+Soal Dapat diakses pada [disini](https://docs.google.com/document/d/1PFDIgt5fC4PMmUaDKxw9ZEgwzpzgFv0xvo3K7PRkj10/edit?usp=sharing)
 
 ## Topologi
-[!topologi](.images/topologi_modul4.png)
+![topologi](images/topologi_modul4.png)
 
 ### Perhitunngan IP
-[!subnet_ip]()
+[!subnet_ip](images/subnet-ip.jpg)
 Setelah dihitung jumlah IP dari subnet-subnet di atas, didapat tabel berikut
 Subnet | Jumlah IP | Netmask
 :---: | :---: | :---:
@@ -53,7 +53,7 @@ Total|4255|/19
 ## VLSM - GNS
 ### Penentuan Network ID, Netmask dan Broadcast Address
 Berikut pohon subnet yang dibentuk sesuai dengan penggabungan subnet sebelumnya
-[!vlsm-tree]()
+![vlsm-tree](images/vlsm-tree.png)
 
 Didapat tabel data setiap subnet, yakni NID dan Netmask. Lalu Broadcast address dapat dicari dengan menggunakan operasi OR pada IP dan Inverted Netmask
 Subnet | Network ID | Netmask | Broadcast
@@ -86,15 +86,19 @@ A21|10.28.9.0|255.255.255.0|10.28.9.255
 ## CIDR - CPT
 ### Penggabungan Subnet
 Berikut penggabungan subnet dengan metode CIDR
-[!cidr-subnet]()
-[!cidr-subnet]()
-[!cidr-subnet]()
-[!cidr-subnet]()
-[!cidr-subnet]()
+![cidr-subnet](images/cidr-b.jpg)
+![cidr-subnet](images/cidr-c.jpg)
+![cidr-subnet](images/cidr-d.jpg)
+![cidr-subnet](images/cidr-e.jpg)
+![cidr-subnet](images/cidr-f.jpg)
+![cidr-subnet](images/cidr-g.jpg)
+![cidr-subnet](images/cidr-h.jpg)
+![cidr-subnet](images/cidr-i.jpg)
+
 
 ### Penentuan Network ID, Netmask dan Broadcast Address
 Berikut pohon subnet yang dibentuk sesuai dengan penggabungan subnet sebelumnya
-[!cidr-tree]()
+![cidr-tree](images/cidr-tree.jpg)
 
 Didapat tabel data setiap subnet, yakni NID dan Netmask. Lalu Broadcast address dapat dicari dengan menggunakan operasi OR pada IP dan Inverted Netmask
 
@@ -124,7 +128,7 @@ A21|10.28.64.0|255.255.255.0|10.28.64.255
 
 ### Topologi CPT
 
-![cidr-cpt]()
+![cidr-cpt](images/topologi-cpt.png)
 
 ### Subnetting
 Setelah dihitung ip untuk tiap subnet, maka sekarang saatnya mengatur ip pada tiap router, client dan server. Setiap interface node diatur sesuai ip yang telah dihitung melalui GUI aplikasi.
