@@ -17,13 +17,14 @@
       <td> 5025211150 </td>
   </tbody>
 </table>
+
 Soal Dapat diakses pada [disini](https://docs.google.com/document/d/1PFDIgt5fC4PMmUaDKxw9ZEgwzpzgFv0xvo3K7PRkj10/edit?usp=sharing)
 
 ## Topologi
 ![topologi](images/topologi_modul4.png)
 
-### Perhitunngan IP
-[!subnet_ip](images/subnet-ip.jpg)
+### Perhitungan IP
+![subnet_ip](images/subnet-ip.jpg)
 Setelah dihitung jumlah IP dari subnet-subnet di atas, didapat tabel berikut
 Subnet | Jumlah IP | Netmask
 :---: | :---: | :---:
@@ -52,7 +53,8 @@ Total|4255|/19
 
 ## VLSM - GNS
 ### Penentuan Network ID, Netmask dan Broadcast Address
-Berikut pohon subnet yang dibentuk sesuai dengan penggabungan subnet sebelumnya
+Berikut pohon subnet yang dibentuk dengan IP `10.28.0.0 /19` sebagai rootnya
+
 ![vlsm-tree](images/vlsm-tree.png)
 
 Didapat tabel data setiap subnet, yakni NID dan Netmask. Lalu Broadcast address dapat dicari dengan menggunakan operasi OR pada IP dan Inverted Netmask
