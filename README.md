@@ -18,8 +18,9 @@
   </tbody>
 </table>
 Soal Dapat diakses pada [Soal Praktikum Modul 4](https://docs.google.com/document/d/1PFDIgt5fC4PMmUaDKxw9ZEgwzpzgFv0xvo3K7PRkj10/edit)
+
 ## Topologi
-[!topologi](.images/topologi_modul4.png)<br>
+[!topologi](.images/topologi_modul4.png)
 
 ### Perhitunngan IP
 [!subnet_ip]()
