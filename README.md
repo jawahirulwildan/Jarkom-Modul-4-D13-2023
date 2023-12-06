@@ -516,14 +516,178 @@ Didapat tabel data setiap subnet, yakni NID dan Netmask. Lalu Broadcast address 
 Setelah dihitung ip untuk tiap subnet, maka sekarang saatnya mengatur ip pada tiap router, client dan server. Setiap interface node diatur sesuai ip yang telah dihitung melalui GUI aplikasi.
 
 #### Aura
-
 ```
-FastEthernet0/0
+FastEthernet0/0 10.28.192.1 255.255.255.252
 FastEthernet0/1
-FastEthernet1/0
+FastEthernet1/0 10.28.65.1 255.255.255.252
+FastEthernet1/1 10.28.32.1 255.255.255.252
+```
+#### Frieren
+```
+FastEthernet0/0 10.28.160.1 255.255.255.224
+FastEthernet0/1 10.28.192.2 255.255.255.252
+FastEthernet1/0 10.28.136.1 255.255.255.252
 FastEthernet1/1
 ```
 
+#### Flamme
+```
+FastEthernet0/0 10.28.136.2 255.255.255.252
+FastEthernet0/1 10.28.152.1 255.255.255.252
+FastEthernet1/0 10.28.132.1 255.255.252.0
+FastEthernet1/1 10.28.128.9 255.255.255.252
+```
+
+#### Fern
+```
+FastEthernet0/0 10.28.152.2 255.255.255.252
+FastEthernet0/1 10.28.144.1 255.255.248.0
+```
+
+#### Himmel
+```
+FastEthernet0/0 10.28.128.10 255.255.255.252
+FastEthernet0/1 10.28.128.1 255.255.255.248 
+```
+
+#### Eisen
+```
+FastEthernet0/0 10.28.32.2 255.255.255.252
+FastEthernet0/1 10.28.24.1 255.255.255.248
+Ethernet0/3/0 10.28.8.1 255.255.255.252
+FastEthernet1/0 10.28.24.9 255.255.255.252
+FastEthernet1/1 10.28.21.1 255.255.255.252
+```
+
+#### Lugner
+```
+FastEthernet0/0 10.28.21.2 255.255.255.252
+FastEthernet0/1 10.28.16.1 255.255.252.0
+FastEthernet1/0 10.28.20.1 255.255.255.0
+FastEthernet1/1
+```
+
+#### Linie
+```
+FastEthernet0/0 10.28.0.65 255.255.255.252
+FastEthernet0/1 10.28.2.1 255.255.254.0
+FastEthernet1/0 10.28.8.2 255.255.255.252 
+FastEthernet1/1
+```
+
+#### Lawine
+```
+FastEthernet0/0 10.28.0.66 255.255.255.252
+FastEthernet0/1 10.28.0.1 255.255.255.192
+```
+
+#### Heiter
+```
+FastEthernet0/0 10.28.0.3 255.255.255.192
+FastEthernet0/1 10.28.4.1 255.255.252.0
+```
+
+#### Denken
+```
+FastEthernet0/0 10.28.65.2 255.255.255.252
+FastEthernet0/1 10.28.64.1 255.255.255.0
+```
+
+#### LakeKorridor
+```
+FastEthernet0 10.28.160.2 255.255.255.224
+Default Gateway 10.6.160.1
+```
+
+#### LaubHills
+```
+FastEthernet0 10.28.144.2 255.255.248.0
+Default Gateway 10.28.144.1
+```
+
+#### AppetitRegion
+```
+FastEthernet0 10.28.144.3 255.255.248.0
+Default Gateway 10.28.144.1
+```
+
+#### RohrRoad
+```
+FastEthernet0 10.28.132.2 255.255.252.0
+Default Gateway 10.28.132.1
+```
+
+#### SchwerMountains
+```
+FastEthernet0 10.28.128.2 255.255.255.248
+Default Gateway 10.28.128.1
+```
+
+#### Richter
+```
+FastEthernet0 10.28.24.2 255.255.255.248
+Default Gateway 10.28.24.1
+```
+
+#### Revolte
+```
+FastEthernet0 10.28.24.3 255.255.255.248
+Default Gateway 10.28.24.1
+```
+
+#### Stark
+```
+FastEthernet0 10.28.24.10 255.255.255.252
+Default Gateway 10.28.24.9
+```
+
+#### TurkRegion
+```
+FastEthernet0 10.28.16.2 255.255.252.0
+Default Gateway 10.28.16.1
+```
+
+#### GrobeForest
+```
+FastEthernet0 10.28.20.2 255.255.255.0
+Default Gateway 10.28.20.1
+```
+
+#### GranzChannel
+```
+FastEthernet0 10.28.2.2 255.255.254.0
+Default Gateway 10.28.2.1
+```
+
+#### BredtRegion
+```
+FastEthernet0 10.28.0.2 255.255.255.192
+Default Gateway 10.28.0.1
+```
+
+#### Sein
+```
+FastEthernet0 10.28.4.2 255.255.252.0
+Default Gateway 10.28.4.1
+```
+
+#### RiegelCanyon
+```
+FastEthernet0 10.28.4.3 255.255.252.0
+Default Gateway 10.28.4.1
+```
+
+#### RoyalCapital
+```
+FastEthernet0 10.28.64.2 255.255.255.0
+Default Gateway 10.28.64.1
+```
+
+#### WilleRegion
+```
+FastEthernet0 10.28.64.3 255.255.255.0
+Default Gateway 10.28.64.1
+```
 ### Routing
 
 Setelah pengaturan IP selesai, dilanjutkan dengan routing pada router-router seperti berikut.
